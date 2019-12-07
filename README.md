@@ -4,6 +4,26 @@
 
 **Remember to replace all the `reactnativeboilerplate` to your project name.**
 
-## TODO
+## Getting Started
+1. Clone this repo.
 
--   [ ] iOS support
+2. Install node modules with yarn.
+    ```
+    yarn
+    ```
+    
+3. To run on Android device / emulator.
+    ```
+    yarn android
+    ```
+    
+4. To run on iOS device / simulator.
+    ```
+    yarn clean:ios
+    yarn ios
+    ```
+    
+Well done!
+
+## Author
+CodeDee
