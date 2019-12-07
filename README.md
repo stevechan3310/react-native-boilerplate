@@ -7,17 +7,19 @@
 ## Getting Started
 1. Clone this repo.
 
-2. Install node modules with yarn.
+2. Install Yarn, refer [here](https://yarnpkg.com/lang/en/docs/install/#mac-stable).
+
+3. Install node modules with Yarn.
     ```
     yarn
     ```
     
-3. To run on Android device / emulator.
+4. To run on Android device / emulator.
     ```
     yarn android
     ```
     
-4. To run on iOS device / simulator.
+5. To run on iOS device / simulator.
     ```
     yarn clean:ios
     yarn ios
