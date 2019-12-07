@@ -1,0 +1,17 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "editor.formatOnSave": true,
+        "files.exclude": {
+            "**/node_modules": true
+        },
+        "[markdown]": {
+            "editor.formatOnSave": false
+        },
+        "java.configuration.updateBuildConfiguration": "automatic"
+    }
+}
