@@ -7,21 +7,24 @@
 ## Getting Started
 1. Clone this repo.
 
-2. Install node modules with yarn.
+2. Install Yarn, refer [here](https://yarnpkg.com/lang/en/docs/install/#mac-stable).
+
+3. Install node modules with Yarn.
     ```
     yarn
     ```
     
-3. To run on Android device / emulator.
+4. To run on Android device / emulator.
     ```
     yarn android
     ```
     
-4. To run on iOS device / simulator.
+5. To run on iOS device / simulator.
     ```
     yarn clean:ios
     yarn ios
     ```
+    **Note: Avoid using iOS Simulator with iOS 13, it will fail with Expo Localisation error. Read more [here](https://forums.expo.io/t/problem-with-expo-localization/28017/6).
     
 Well done!
 
