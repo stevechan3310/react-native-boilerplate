@@ -1,8 +1,8 @@
 import React from 'react';
 import { Navigation } from 'react-native-navigation';
 
-import App from './src/App';
-import AppContainer from './src/AppContainer';
+import App from '@/App';
+import AppContainer from '@/AppContainer';
 
 export const WrappedComponent = (Component) => (props) => (
   <AppContainer>
