@@ -30,3 +30,6 @@ Well done!
 
 ## Author
 CodeDee
+
+Contributor
+leesiongchan
