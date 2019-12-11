@@ -16,6 +16,7 @@
     
 4. To run on Android device / emulator.
     ```
+    yarn clean:android
     yarn android
     ```
     
@@ -24,7 +25,6 @@
     yarn clean:ios
     yarn ios
     ```
-    **Note: Avoid using iOS Simulator with iOS 13, it will fail with Expo Localisation error. Read more [here](https://forums.expo.io/t/problem-with-expo-localization/28017/6).
     
 Well done!
 
