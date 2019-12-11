@@ -8,15 +8,15 @@
     "ios:iPhoneXs": "react-native run-ios --simulator=\"iPhone Xs\"",
     "clean:android": "cd android && ./gradlew clean && cd ..",
     "clean:ios": "cd ios && pod cache clean --all && pod install && cd ..",
+    "clean:all": "watchman watch-del-all && rm -rf /tmp/metro-* && rm -rf node_modules &&  yarn && cd android && ./gradlew clean && cd .. && cd ios && pod cache clean --all && pod install && cd ..",
     "clean:node_modules": "rm -rf node_modules &&  yarn",
     "clean:watchman": "watchman watch-del-all",
-    "clean:cahce": "rm -rf /tmp/metro-*",
+    "clean:cache": "rm -rf /tmp/metro-*",
     "lint": "tslint .",
     "start": "react-native start --reset-cache",
     "test": "jest"
   },
   "dependencies": {
-    "expo-localization": "^7.0.0",
     "i18next": "^17.2.0",
     "react": "16.9.0",
     "react-i18next": "^10.13.1",
