@@ -23,13 +23,16 @@
 5. To run on iOS device / simulator.
     ```
     yarn clean:ios
-    yarn ios
+    yarn ios (Simulator)
+    yarn ios:deploy (Device)
+    yarn iosLdeploy "<your-device-ame>" (Specific device - When you have more than one device connected)
     ```
     
 Well done!
 
 ## Author
-CodeDee
+stevechan3310
 
 Contributor
+CodeDee
 leesiongchan
