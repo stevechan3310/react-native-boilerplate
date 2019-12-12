@@ -25,7 +25,7 @@
     yarn clean:ios
     yarn ios (Simulator)
     yarn ios:deploy (Device)
-    yarn iosLdeploy "<your-device-ame>" (Specific device - When you have more than one device connected)
+    yarn ios:deploy "<your-device-ame>" (Specific device - When you have more than one device connected)
     ```
     
 Well done!
