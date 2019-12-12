@@ -2302,13 +2302,6 @@ expo-file-system@~7.0.0:
   dependencies:
     uuid-js "^0.7.5"
 
-expo-localization@^7.0.0:
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/expo-localization/-/expo-localization-7.0.0.tgz#312c1ceff3aaeab981760ec6820194e70311da2d"
-  integrity sha512-DD391wtG+G4L/w3YndmSA+sOlRN5xpiIcwKcFYa+Tn5NIuHEds9G9JoqUo0wbqjirHBNTHfpFXWQ4NOGiKRLxg==
-  dependencies:
-    rtl-detect "^1.0.2"
-
 expo-permissions@~7.0.0:
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/expo-permissions/-/expo-permissions-7.0.0.tgz#f4135c3cf8e49c673a9a714459a1eb2b40fe2092"
@@ -5264,11 +5257,6 @@ rsvp@^4.8.4:
   version "4.8.5"
   resolved "https://registry.yarnpkg.com/rsvp/-/rsvp-4.8.5.tgz#c8f155311d167f68f21e168df71ec5b083113734"
   integrity sha512-nfMOlASu9OnRJo1mbEk2cz0D56a1MBNrJ7orjRZQG10XDyuvwksKbuXNp6qa+kbn839HwjwhBzhFmdsaEAfauA==
-
-rtl-detect@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/rtl-detect/-/rtl-detect-1.0.2.tgz#8eca316f5c6563d54df4e406171dd7819adda67f"
-  integrity sha512-5X1422hvphzg2a/bo4tIDbjFjbJUOaPZwqE6dnyyxqwFqfR+tBcvfqapJr0o0VygATVCGKiODEewhZtKF+90AA==
 
 run-async@^2.2.0:
   version "2.3.0"
